@@ -25,7 +25,7 @@ const Footer = () => {
         <div className='bottom-footer'>
           <div>
             <p>Home</p>
-            <p>Contatct</p>
+            <p>Contact</p>
             <p>About</p>
           </div>
           <div>
