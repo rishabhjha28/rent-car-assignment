@@ -45,3 +45,7 @@ button{
     padding: 5px 10px;
 
 }
+.currantly-unavilable{
+    color: red;
+    font-size: xx-small;
+}

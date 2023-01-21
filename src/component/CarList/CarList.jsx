@@ -21,7 +21,15 @@ const CarList = ({car}) => {
         </div>
         <div className='rent'><p><BiRupee/></p><p>{car.rentPerDay}</p></div>
         <div className='buttoncontainer'>
-            <button disabled={car.curruntBooking} onClick={()=>{navigate(`/booking-form/${car.id}`)}} >Book Now</button>
+            <div>
+                <button disabled={car.curruntBooking} onClick={()=>{navigate(`/booking-form/${car.id}`)}} >Book Now</button>
+                {
+                    car.curruntBooking &&
+                    <div className='currantly-unavilable'>
+                        curruntly unavaliable
+                    </div>
+                }
+            </div>
             <button onClick={()=>navigate(`car/${car.id}`)}>Details</button>
         </div>      
     </div>

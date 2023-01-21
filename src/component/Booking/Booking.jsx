@@ -17,7 +17,6 @@ const Booking = () => {
         issueDate:'',
         returnDate:''
     })
-    console.log(formData)
     const [message,setMessage] = useState("")
     const [open,setOpen] = useState(false)
     useEffect(()=>{
