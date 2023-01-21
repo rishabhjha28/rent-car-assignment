@@ -1,0 +1,83 @@
+.Booking{
+    display: flex;
+    width: 70vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh 0vh;
+}
+.booking{
+    display: flex;
+    flex-direction: column;
+    /* width: vw; */
+}
+.booking-heading{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10vh 0px;
+    align-items: center;
+}
+.head{
+    font-size: larger;
+    font-weight: 700;
+}
+.booking-form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.p{
+    font-weight: bold   ;
+}
+.booking-form div{
+    display:flex;
+    flex-direction: column;
+    height:10vh;
+    width: 50%;
+}
+input{
+    width: 60%;
+    padding: 10px 0px;
+    border: 1px solid lightgray;
+    outline: none;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+}
+.bookimg{    
+    height: 60vh !important;
+    width: 20vw !important; 
+}
+.bookingbuttons{
+    display: flex;
+    justify-content: space-between;
+}
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    position: fixed;
+    top: 5rem;
+    background-color: red;
+    color: white;
+    padding: 1rem;
+    left: 50%;  
+}
+.continue{
+    display: flex;
+    justify-content: flex-end;   
+    margin-top: 1rem;
+}
+.continue button{
+    font-weight: 700;
+}
+.booking-confirmed{
+    padding: 2rem;
+}
+.info{
+    font-size: small;
+}
+.bold{
+    font-weight: 700;
+    font-size: x-large;
+    margin-bottom: 1rem;
+}

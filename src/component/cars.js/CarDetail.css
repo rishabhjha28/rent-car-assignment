@@ -1,0 +1,76 @@
+.carDetail{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin-top: 10vh;
+}
+.upperPart{
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.carBigImg{
+    width: 70%;
+    height: inherit;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.upperlowerpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imgbig{
+    height:100%;
+    width:inherit;
+    border-top-left-radius:inherit;
+    border-bottom-left-radius:inherit
+}
+.carName{
+    font-size: 30px;  
+}
+.cardetail{
+    display: flex;
+    align-items: center;
+    margin-top:4vh;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+    justify-content: flex-start;
+}
+.mid{
+    margin-top: 5vh;
+}
+.h{
+    font-size: 25px;
+    padding-bottom: 1vh;
+    border-bottom: 2px solid lightgray;
+    color: rgb(143, 143, 143);
+}
+.avalability{
+    margin-top: 2vh;
+    background-color: grey;
+    color: white;
+    width: fit-content;
+    padding: 5px;
+}
+.avalability p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table{
+    width: 100%;
+    padding-top: 1rem;
+    margin-bottom: 5rem;
+}
+thead{
+    text-align: left;
+}
+td{
+    padding-top: 1rem;
+}
+.detailOfCar div{
+    padding: 1rem 0rem;
+}

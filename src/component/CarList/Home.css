@@ -1,0 +1,19 @@
+.home{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    width: 70vh;
+    margin:5rem 0rem;
+    font-weight: 700;
+    font-size: x-large;
+}
+.t-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.t-heading div:first-child{
+    display: flex;
+    justify-content: space-around;
+}
