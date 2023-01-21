@@ -9,7 +9,7 @@ const CarList = ({car}) => {
     const navigate = useNavigate()
     return (
     <div className='carlist'>
-        <div>
+        <div className='carlistimg'>
             <img className='carimg' src={car.image} alt={car.name} />
         </div>
         <div className='detail'>
