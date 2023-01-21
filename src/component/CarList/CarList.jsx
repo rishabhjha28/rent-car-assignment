@@ -13,7 +13,7 @@ const CarList = ({car}) => {
             <img className='carimg' src={car.image} alt={car.name} />
         </div>
         <div className='detail'>
-            <div>{car.name}</div>
+            <div><p>{car.name}</p>  </div>
             <div className='in'>
                 <div><p><IoMdColorFilter/></p><p>{car.color}</p></div>
                 <div><p><MdAirlineSeatReclineNormal/></p><p>{car.noOfSeat} seater</p></div>

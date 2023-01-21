@@ -11,9 +11,8 @@
 .t-heading{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
-.t-heading div:first-child{
+.abc{
     display: flex;
     justify-content: space-around;
 }

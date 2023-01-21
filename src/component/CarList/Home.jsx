@@ -12,7 +12,7 @@ const Home = () => {
         <p>Cars for rent</p>
       </div>
       <div className="t-heading">
-        <div >
+        <div className="abc">
           <p>Car Details</p>
           <p>RENT PER DAY</p>
         </div>
